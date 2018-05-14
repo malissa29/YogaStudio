@@ -1,0 +1,118 @@
+body {
+    background-color: #3F2860 ;
+	font-family: arial ;
+	color: #3F2860;
+    
+}
+
+a:link {
+    color: #3F2860;
+}
+
+a:visited {
+    color: #497777;
+}
+
+a:hover {
+    color: #A26100;
+}
+
+
+h1 {
+	
+	line-height: 200%;
+	text-align: left;
+	background-image: url(lilyheader.jpg);
+	background-position: right top;
+    background-color: #9BC1C2;
+    background-blend-mode: normal;
+    background-repeat:no-repeat;
+	
+	
+}
+
+
+
+nav {
+	text-align: center;
+	font-weight: bold;
+	
+}
+
+
+
+footer {
+ 	background-color: #9BC1C2;
+ 	width: 80%;
+    bottom: 0;
+    text-align: center; 
+    position: fixed;
+ 	font-size: small;
+ 	font-style: italic;
+ 	color: grey ; 
+ }
+
+
+.button {
+    background-color: #CCCCCC;
+    border: 2px;
+    color: #3F2860;
+    width: 12em;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 12px;
+    display: block;
+    border-style: outset;
+    
+ }
+
+div{
+ 	display:block;
+ }
+
+#wrapper{
+    width: 80%;
+    height: 200%;
+    margin: auto;
+    background-color: #F5F5F5;
+}
+
+#nav {
+    float:left;
+    padding-left: 10px;
+    width: 15%;
+    height: 100%;
+    
+}
+
+#bottom {
+    float:right;
+    width: 84%;
+    padding-left: -10px;
+
+    
+}
+
+
+#right{
+    float:right;
+    padding-right: 10px;
+    padding-top:   -160px;
+    width:65%;
+    height:35%;
+}
+
+label {
+    float:left;
+    width:10%;
+    text-align:left;
+}   
+
+textarea{
+    width: 150px;
+    height: 100px;
+}
